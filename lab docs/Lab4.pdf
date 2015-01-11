@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sign In</title>
+<style>
+<!--
+body {
+font-family:Verdana;  
+background-image:url('/inc/bg1.jpg'); background-repeat: repeat-y;
+margin:0px;
+color:#333; font-family:verdana;
+}
+/* body {color:#333; font-family:verdana; font-size:13px;  margin:5px;} */
+a {color:#4d699d;  text-decoration:none;}
+a:hover {color:#444; text-decoration:none;}
+a img {border:0;}
+#choose{color:#333; font-family:verdana; font-size:17px;}
+
+#menu {color:white; font-size:11px; float:left; margin-left:10px;}
+#menu a {color:white; text-decoration:none;}
+#menu a:hover {color:#eeeeee; text-decoration:underline;}
+#menu a img {border:0;}
+
+-->
+</style>
+<link rel="shortcut icon" href="/inc/favicon.ico" />
+</head>
+<body bgcolor=white>
+<div id="menu">
+<center>
+<a href="/" style="font-size:13px;"><img src="/inc/logo.jpg" border="0"><BR>
+<b>archive-ca.com</b></a><BR><BR> 
+Web directory, archive<BR>
+</a>
+</center>
+<BR><BR><BR><BR>
+<a href="/form_submit_your_site_to_archive">| Submit your site to archive</a><BR><BR>
+<a href="/form_rem">| Remove my site from archive</a><BR><BR>
+<a href="/faq">| FAQ</a><BR><BR>
+<a href="/form_contacts">| Contacts</a><BR><BR>
+<a href="/partners">| Partners</a><BR><BR>
+<BR><BR><BR>
+
+Recommend this on Google:<BR>
+
+<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<BR><BR>
+
+<BR><BR><BR><BR><BR>
+Find domain in archive system:
+<form action="/search" method="GET">
+<input name="qq" maxlength="50" class="inputbox" size="20" value="enter domain name..." onblur="if (this.value=='') this.value='enter domain name...';" onfocus="if (this.value=='enter domain name...') this.value='';" type="text">
+</form>
+</div>
+<div style="margin-left:220px;display:block;font-size:13px; ">
+<style>
+.main_table {border-collapse: collapse; background-color:#F0F0F0;}
+.main_table td {border:1px solid #ACACAC; padding: 5px 10px 5px 10px;}
+.button {background: #E0E0E0; border: 1px solid #acacac; padding: 1px 4px 1px 4px; margin-top:4px; color: #000000; font-weight: bold;}
+</style>
+<BR><BR><B>Sign In</B><BR><BR><table width="535"><tr><td align=justify><font style="font-family:verdana; font-size:13px;"><form method="post">Only 2 archived pages are shown for unregistered users. To access archive system and see archived sites, SIGN IN, by entering password: <input type="password" name=pass style="width:100px;"></form>
+      
+      <BR><BR><BR>New here? <b>Sign Up</b>:<BR>
+      </font></td></tr></table>
+    <BR>
+
+    <form method="post" enctype="multipart/form-data" action="/form_sign_up">
+    <table class="main_table">
+        <tr><td>Your name, surname:<br><input tyle="text" name="name" value="" size="50" style="width:350px;"></td></tr>
+        <tr><td>E-mail: <br><input tyle="text" name="email" value="" size="50" style="width:350px;"></td></tr>
+        <tr><td><table style="border:0px;" border=0><tr><td><img src="/inc/captcha.php" alt="" /></td><td>enter code:<BR><input type=text size=30 name="captcha"></td></tr></table></td></tr>
+        <tr><td><input type="submit" value="Submit"  class="button" style="width:350px;"></td></tr>
+    </table>
+    <input type="text" name="mail" value="" style="visibility:hidden;">
+    <input type="hidden" name="action" value="submit">
+    
+    </form>
+    <BR><BR>To submit Your site to archive system, <a href="/form_submit_your_site_to_archive" style="color:black;text-decoration:underline;">click here</a>.
+</div>
+</body>
+</html> 
